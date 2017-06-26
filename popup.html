@@ -1,0 +1,58 @@
+<html>
+  <head>
+    <style>
+      html {
+        width: 300px;
+        font-family: Arial;
+        font-size: 1.5em;
+      }
+      li {
+        margin: 5px 0px;
+      }
+      ul li
+      {
+        list-style: square;
+      }
+      a,
+      a:visited {
+        outline: none;
+        color: blue;
+      }
+      a:hover {
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>CS50 Shortcuts</h1>
+    <!-- CS50 IDE + edX course hub -->
+    <ul>
+      <li>
+        <a href="https://cs50.io">CS50 IDE</a>
+      </li>
+      <li>
+        <a href="https://courses.edx.org/courses/course-v1:HarvardX+CS50+X/course/">edX page</a>
+      </li>
+    </ul>
+
+    <!-- Lectures and notes -->
+    <h2>Lectures</h2>
+    <ul>
+      <li>
+        <a href="https://cs50.harvard.edu/weeks">All lectures + notes</a>
+      </li>
+      <li>
+        <a href="https://www.youtube.com/user/cs50tv">CS50 YouTube Channel</a>
+      </li>
+    </ul>
+
+    <!-- Psets: of which there are 9 -->
+    <h2>Problem sets</h2>
+    <ol id="psets">
+      <!--popup.js will populate list here -->
+    </ol>
+
+    <!-- Chrome Extensions only allow linked .js files, not inline -->
+    <script src="popup.js"></script>
+  </body>
+</html>
