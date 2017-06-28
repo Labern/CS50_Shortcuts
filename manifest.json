@@ -1,13 +1,8 @@
 {
   "manifest_version": 2,
-  "name": "CS50 IDE",
+  "name": "CS50 IDE 2",
   "description": "Provides shortcuts to Harvard's CS50x course including the edX page, lectures and problem sets.",
   "version": "1.0",
-
-  "permissions":
-  [
-    "storage"
-  ],
 
   "browser_action":
   {

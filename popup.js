@@ -18,12 +18,5 @@ document.addEventListener('DOMContentLoaded', function()
 for (var z = 0; z <= 8; z++)
 {
   var psets = document.getElementById('psets');
-  psets.innerHTML += '<li><a href="http://docs.cs50.net/2017/x/psets/' + z + '/pset' + z + '.html">Pset ' + z + '</a></li>';
-
-}
-
-for (var y = 0; y <= 11; y++)
-{
-  var lectures = document.getElementById('lectures');
-  lectures.innerHTML += '<li><a href="https://video.cs50.net/2016/fall/lectures/' + y + '/">Lecture ' + y + '</a></li>';
+  psets.innerHTML += '<li><div class="table"><a href="http://docs.cs50.net/2017/x/psets/' + z + '/pset' + z + '.html">Pset ' + z + '</a></div>';
 }
